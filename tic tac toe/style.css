@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}section{
+    text-align: center;
+}
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 306px;
+    margin: 50px auto;
+}
+.cell{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid navy;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+.game-restart{
+    background-color: #db2f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    cursor:pointer;
+}
